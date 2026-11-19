@@ -1,6 +1,6 @@
 # SpaceX Falcon 9 Booster Turnaround & Pad Cadence Operations Analysis
 
-End-to-end Python aerospace operations analysis of **90 SpaceX Falcon 9 missions across 53 unique booster cores**, evaluating fleet refurbishment turnaround cycle times, **Block 5** hardware learning curves, **Starlink (`VLEO`)** payload standardization, and launch complex throughput across **CCAFS SLC-40, KSC LC-39A, and VAFB SLC-4E**.
+End-to-end Python aerospace operations analysis of 90 SpaceX Falcon 9 missions across 53 unique booster cores (2010–2020 Block 1-to-Block 5 Reusability Transition & Initial Starlink Rollout), evaluating fleet refurbishment turnaround cycle times, Block 5 hardware learning curves, Starlink (VLEO) payload standardization, and launch complex throughput across CCAFS SLC-40, KSC LC-39A, and VAFB SLC-4E.
 
 ## 1. Executive Summary & Operational Problem
 High-cadence launch operations depend on two distinct turnaround cycles: **Booster Refurbishment Turnaround** (calendar days for a specific booster serial number like `B1058` or `B1060` to refly) and **Launch Pad Reset Cadence** (calendar days between consecutive launches at the same pad). Using production Falcon 9 telemetry, this model quantifies the operational bottlenecks across hardware generations, flight-count maintenance gates, and launch sites.
