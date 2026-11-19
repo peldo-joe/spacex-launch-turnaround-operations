@@ -6,6 +6,8 @@ End-to-end Python aerospace operations analysis of 90 SpaceX Falcon 9 missions a
 High-cadence launch operations depend on two distinct turnaround cycles: **Booster Refurbishment Turnaround** (calendar days for a specific booster serial number like `B1058` or `B1060` to refly) and **Launch Pad Reset Cadence** (calendar days between consecutive launches at the same pad). Using production Falcon 9 telemetry, this model quantifies the operational bottlenecks across hardware generations, flight-count maintenance gates, and launch sites.
 
 ## 2. Key Operational Findings
+<img width="735" height="431" alt="image" src="https://github.com/user-attachments/assets/27cf6f8d-fb72-4ab3-99ed-3d6389562600" />
+
 * **The Block 5 Step-Change:** Transitioning from early reusable boosters (`Block 3.0` median turnaround: **`195.0` days**) to **`Block 5.0`** (`27` reflown missions) cut median booster refurbishment turnaround by **48% to `102.0` days**, with record turnarounds reaching **`51.0` days (`B1058` & `B1060`)**.
 * **Flight-Count Maintenance Gate & Learning Curve:** Booster turnaround holds steady across Flights 2–3 (`123.0–125.5` median days, `51.0`-day best), experiences a scheduled deep-maintenance recertification spike at **Flight 4 (`156.0` median / `210.5` mean days)**, and accelerates in the "Fleet Leader" regime on **Flights 5–6 (`138.5` down to `127.0` days, `75.0`-day best)**.
 * **Vertical Integration Advantage (`Starlink VLEO` vs. External Customers):** Reflown boosters assigned to internal **Starlink (`VLEO`)** missions achieve a **`113.0`-day median turnaround** compared to **`145.0` days** for external customer payloads—a **32-day (`22%`) cycle-time reduction** enabled by standardized internal payload integration.
