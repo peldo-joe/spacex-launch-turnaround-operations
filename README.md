@@ -12,6 +12,9 @@ High-cadence launch operations depend on two distinct turnaround cycles: **Boost
 * **Launch Complex Specialization & Pad Reset Cadence:**
   * **`CCAFS SLC 40` (High-Cadence Workhorse):** Handled **61% of fleet launches (`55` missions, `305.2 metric tons` to orbit)** with a **`27.5`-day median pad reset** and a **`9.0`-day record pad turnaround**.
   * **`KSC LC 39A` (Heavy-Lift Specialist):** Delivered a **37% heavier average payload (`7,606.5 kg`/flight)** with the fleet's highest booster landing recovery rate (**`77.3%`**) and a **`12.0`-day record pad reset**.
-
+* **"Then (2010–2020) vs. Now (Live 2026 Hyper-Cadence — Launch Library 2 API)" Pad Reset Compression:** Querying the **100 most recent completed SpaceX missions (`2026-03-04` to `2026-11-13`)** via the live **Launch Library 2 REST API (`ll.thespacedevs.com`)** demonstrates how Block 5 and Starlink standardization scaled into modern pad operations:
+  * **Vandenberg (`SLC-4E`):** Compressed median pad reset time by **95%**—from **`88.0` days** (`2010–2020`) down to **`4.0` median days (`2.3`-day fastest reset)** across **`57` launches** in 8 months.
+  * **Cape Canaveral (`SLC-40`):** Compressed median pad reset time by **80%**—from **`27.5` days** (`9.0`-day best in `2010–2020`) down to **`5.6` median days** and a **`2.0`-day (`48-hour`) fastest pad reset** across **`36` launches**.
+  * **Starship (`Orbital Launch Pad 2`):** Achieved a **`63.0`-day median pad reset (`46.4`-day fastest)** across **`4` launches** in 2026, already surpassing early Falcon 9 reusable pad cadence.
 ## 3. Repository Contents
 * **`spacex_falcon9_turnaround_model.ipynb`** — Python data pipeline (`pandas`, `numpy`) calculating per-serial booster lag diffs (`.groupby("Serial").diff()`), Block generation benchmarks, flight-count learning curves, and pad reset cadence.
